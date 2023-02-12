@@ -1,0 +1,26 @@
+.avatar {
+  border-radius: 100%;
+  border-color: gray;
+  border-width: 2px;
+  border-style: solid;
+  width: 150px;
+  height: 150px;
+}
+
+.canvas {
+  border: 5px solid black;
+  width: 2000px;
+  height: 1000px;
+}
+
+#rect {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

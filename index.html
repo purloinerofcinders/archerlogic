@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+  <script src='scripts/script.js'></script>
+</head>
+
+<body>
+  <div class="container">
+    <img class="avatar" src="assets/avatar.jpg" alt="Dog">
+    <div>
+      <form action="age.html" method="get">
+        <label for="name">What is your name? </label>
+        <input id="name" name="name" type="text"></input>
+        <label for="dob">What is your date of birth? </label>
+        <input id="dob" name="dob" type="date"></input>
+        <input type="submit" />
+      </form>
+    </div>
+    <div>
+      <button type="button" onclick="StartFizzBuzz()">Fizzbuzz</button>
+      <button type="button" onclick="StartProblem2()">Problem 2</button>
+      <button type="button" onclick="StartProblem4()">Problem 4</button>
+    </div>
+    <div id="rect">
+      <label for="r1x1">Rectangle 1 Point X 1: </label>
+      <input id="r1x1" name="r1x1" type="number"></input>
+      <label for="r1y1">Rectangle 1 Point Y 1: </label>
+      <input id="r1y1" name="r1y1" type="number"></input>
+
+      <label for="r1x2">Rectangle 1 Point X 2: </label>
+      <input id="r1x2" name="r1x2" type="number"></input>
+      <label for="r1y2">Rectangle 1 Point Y 2: </label>
+      <input id="r1y2" name="r1y2" type="number"></input>
+
+      <label for="r2x1">Rectangle 2 Point X 1: </label>
+      <input id="r2x1" name="r2x1" type="number"></input>
+      <label for="r2y1">Rectangle 2 Point Y 1: </label>
+      <input id="r2y1" name="r2y1" type="number"></input>
+
+      <label for="r2x2">Rectangle 2 Point X 2: </label>
+      <input id="r2x2" name="r2x1" type="number"></input>
+      <label for="r2y2">Rectangle 2 Point Y 2: </label>
+      <input id="r2y2" name="r2y2" type="number"></input>
+
+      <button type="button" onclick="StartProblem4()">Check Intercept</button>
+    </div>
+    <p id="outputText"></p>
+  </div>
+</body>
+
+</html>
